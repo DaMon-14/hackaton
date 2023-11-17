@@ -30,3 +30,4 @@ D:\Sibiu Rewards\hackaton\web_api\web_api\obj\Debug\net6.0\refint\web_api.dll
 D:\Sibiu Rewards\hackaton\web_api\web_api\obj\Debug\net6.0\web_api.pdb
 D:\Sibiu Rewards\hackaton\web_api\web_api\obj\Debug\net6.0\web_api.genruntimeconfig.cache
 D:\Sibiu Rewards\hackaton\web_api\web_api\obj\Debug\net6.0\ref\web_api.dll
+D:\Sibiu Rewards\hackaton\web_api\web_api\obj\Debug\net6.0\web_api.sourcelink.json
