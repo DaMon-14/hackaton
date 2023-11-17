@@ -43,21 +43,6 @@ namespace web_api.Controllers
 
             return customer;
             
-        }
-        
-
-
-
-        private static readonly string[] Summaries = new[]
-        {
-        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-    };
-
-        private readonly ILogger<CustomersController> _logger;
-
-        public CustomersController(ILogger<CustomersController> logger)
-        {
-            _logger = logger;
-        }
+        } 
     }
 }
