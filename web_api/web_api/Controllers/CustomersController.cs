@@ -1,6 +1,4 @@
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using System.Data.Entity;
 
 namespace web_api.Controllers
 {
@@ -21,7 +19,6 @@ namespace web_api.Controllers
         public Customer GetCustomer(int id)
         {
             Customer customer = new Customer();
-            customer.ClientInfo=new Client();
             List<string> customer_names = new List<string>() { "abc", "cde", "efg" };
             List<string> customer_passwords = new List<string>() { "abc", "cde", "efg" };
             //List<int> customer_ids = new List<int>() { 1,2,3};
@@ -32,11 +29,11 @@ namespace web_api.Controllers
 
             int r = rnd.Next(customer_names.Count);
             string x = customer_names[r];
-            customer.ClientInfo.UserName = x;
+            customer.UserName = x;
             
 
             r = rnd.Next(customer_passwords.Count);
-            customer.ClientInfo.Password = customer_passwords[r];
+            customer.Password = customer_passwords[r];
 
             r = rnd.Next(customer_points.Count);
             customer.Points = customer_points[r];

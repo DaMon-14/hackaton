@@ -32,8 +32,6 @@ D:\Sibiu Rewards\hackaton\web_api\web_api\obj\Debug\net6.0\web_api.genruntimecon
 D:\Sibiu Rewards\hackaton\web_api\web_api\obj\Debug\net6.0\ref\web_api.dll
 D:\Sibiu Rewards\hackaton\web_api\web_api\bin\Debug\net6.0\Azure.Core.dll
 D:\Sibiu Rewards\hackaton\web_api\web_api\bin\Debug\net6.0\Azure.Identity.dll
-D:\Sibiu Rewards\hackaton\web_api\web_api\bin\Debug\net6.0\EntityFramework.SqlServer.dll
-D:\Sibiu Rewards\hackaton\web_api\web_api\bin\Debug\net6.0\EntityFramework.dll
 D:\Sibiu Rewards\hackaton\web_api\web_api\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\Sibiu Rewards\hackaton\web_api\web_api\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 D:\Sibiu Rewards\hackaton\web_api\web_api\bin\Debug\net6.0\Microsoft.Data.Sqlite.dll
@@ -67,7 +65,6 @@ D:\Sibiu Rewards\hackaton\web_api\web_api\bin\Debug\net6.0\SQLitePCLRaw.core.dll
 D:\Sibiu Rewards\hackaton\web_api\web_api\bin\Debug\net6.0\SQLitePCLRaw.provider.e_sqlite3.dll
 D:\Sibiu Rewards\hackaton\web_api\web_api\bin\Debug\net6.0\System.CodeDom.dll
 D:\Sibiu Rewards\hackaton\web_api\web_api\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
-D:\Sibiu Rewards\hackaton\web_api\web_api\bin\Debug\net6.0\System.Data.SqlClient.dll
 D:\Sibiu Rewards\hackaton\web_api\web_api\bin\Debug\net6.0\System.Drawing.Common.dll
 D:\Sibiu Rewards\hackaton\web_api\web_api\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
 D:\Sibiu Rewards\hackaton\web_api\web_api\bin\Debug\net6.0\System.Memory.Data.dll
@@ -82,9 +79,6 @@ D:\Sibiu Rewards\hackaton\web_api\web_api\bin\Debug\net6.0\runtimes\win-arm64\na
 D:\Sibiu Rewards\hackaton\web_api\web_api\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 D:\Sibiu Rewards\hackaton\web_api\web_api\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 D:\Sibiu Rewards\hackaton\web_api\web_api\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-D:\Sibiu Rewards\hackaton\web_api\web_api\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
-D:\Sibiu Rewards\hackaton\web_api\web_api\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
-D:\Sibiu Rewards\hackaton\web_api\web_api\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
 D:\Sibiu Rewards\hackaton\web_api\web_api\bin\Debug\net6.0\runtimes\alpine-arm\native\libe_sqlite3.so
 D:\Sibiu Rewards\hackaton\web_api\web_api\bin\Debug\net6.0\runtimes\alpine-arm64\native\libe_sqlite3.so
 D:\Sibiu Rewards\hackaton\web_api\web_api\bin\Debug\net6.0\runtimes\alpine-x64\native\libe_sqlite3.so
@@ -107,10 +101,14 @@ D:\Sibiu Rewards\hackaton\web_api\web_api\bin\Debug\net6.0\runtimes\win-arm\nati
 D:\Sibiu Rewards\hackaton\web_api\web_api\bin\Debug\net6.0\runtimes\win-arm64\native\e_sqlite3.dll
 D:\Sibiu Rewards\hackaton\web_api\web_api\bin\Debug\net6.0\runtimes\win-x64\native\e_sqlite3.dll
 D:\Sibiu Rewards\hackaton\web_api\web_api\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
-D:\Sibiu Rewards\hackaton\web_api\web_api\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-D:\Sibiu Rewards\hackaton\web_api\web_api\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\Sibiu Rewards\hackaton\web_api\web_api\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
 D:\Sibiu Rewards\hackaton\web_api\web_api\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 D:\Sibiu Rewards\hackaton\web_api\web_api\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 D:\Sibiu Rewards\hackaton\web_api\web_api\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\Sibiu Rewards\hackaton\web_api\web_api\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Sibiu Rewards\hackaton\web_api\web_api\bin\Debug\net6.0\Humanizer.dll
+D:\Sibiu Rewards\hackaton\web_api\web_api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Sibiu Rewards\hackaton\web_api\web_api\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\Sibiu Rewards\hackaton\web_api\web_api\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\Sibiu Rewards\hackaton\web_api\web_api\bin\Debug\net6.0\System.Text.Json.dll
+D:\Sibiu Rewards\hackaton\web_api\web_api\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
