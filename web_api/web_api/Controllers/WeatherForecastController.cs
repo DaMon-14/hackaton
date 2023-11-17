@@ -3,9 +3,16 @@ using Microsoft.AspNetCore.Mvc;
 namespace web_api.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class WeatherForecastController : ControllerBase
     {
+        [HttpGet("{id}")]
+        public Customer GetCustomer()
+        {
+            return new Customer();
+        }
+
+
         private static readonly string[] Summaries = new[]
         {
         "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
@@ -16,18 +23,6 @@ namespace web_api.Controllers
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
             _logger = logger;
-        }
-
-        [HttpGet(Name = "GetWeatherForecast")]
-        public IEnumerable<Customer> Get()
-        {
-            return Enumerable.Range(1, 5).Select(index => new Customer
-            {
-                Date = DateTime.Now.AddDays(index),
-                TemperatureC = Random.Shared.Next(-20, 55),
-                Summary = Summaries[Random.Shared.Next(Summaries.Length)]
-            })
-            .ToArray();
         }
     }
 }
