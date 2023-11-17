@@ -14,32 +14,56 @@ namespace web_api.Controllers
         }
 
 
-
+        // GET: api/Customers/5
         [HttpGet("{id}")]
-        public Customer GetCustomer(int id)
+        public async Task<ActionResult<Customer>> GetCustomer(int id)
         {
-            Customer customer = new Customer();
-            List<string> customer_names = new List<string>() { "abc", "cde", "efg" };
-            List<string> customer_passwords = new List<string>() { "abc", "cde", "efg" };
-            //List<int> customer_ids = new List<int>() { 1,2,3};
-            List<int> customer_points = new List<int>() {10, 34, 53};
-            
-            Random rnd = new Random();
-            customer.CustomerID = id;
+            if (_context.Customers == null)
+            {
+                return NotFound();
+            }
+            var customer = await _context.Customers.FindAsync(id);
 
-            int r = rnd.Next(customer_names.Count);
-            string x = customer_names[r];
-            customer.UserName = x;
-            
-
-            r = rnd.Next(customer_passwords.Count);
-            customer.Password = customer_passwords[r];
-
-            r = rnd.Next(customer_points.Count);
-            customer.Points = customer_points[r];
-
+            if (customer == null)
+            {
+                return NotFound();
+            }
             return customer;
-            
-        } 
+        }
+
+        // POST: api/Customers
+        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        [HttpPost]
+        public async Task<ActionResult<Customer>> PostCustomer(Customer customer)
+        {
+            if (_context.Customers == null)
+            {
+                return Problem("Entity set 'MyContext.Customers'  is null.");
+            }
+            _context.Customers.Add(customer);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction("GetCustomer", new { id = customer.CustomerID }, customer);
+        }
+
+        // DELETE: api/Customers/5
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteCustomer(int id)
+        {
+            if (_context.Customers == null)
+            {
+                return NotFound();
+            }
+            var customer = await _context.Customers.FindAsync(id);
+            if (customer == null)
+            {
+                return NotFound();
+            }
+
+            _context.Customers.Remove(customer);
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+        }
     }
 }
