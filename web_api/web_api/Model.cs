@@ -1,12 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
+//using System.Data.Entity;
 using web_api;
 
 public class MyContext : DbContext
 {
     public DbSet<Customer> Customers { get; set; }
-    public MyContext()
-    {
-    }
+
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
