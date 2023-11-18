@@ -31,6 +31,7 @@ namespace web_api.Migrations
                     b.Property<string>("Password")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<string>("Password"));
 
                     b.Property<int>("Points")
                         .HasColumnType("int");
